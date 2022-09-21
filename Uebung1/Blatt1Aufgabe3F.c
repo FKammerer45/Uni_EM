@@ -3,7 +3,7 @@
  *
  * Created: 11.11.2021 10:28:40
  *  Author: kaf43138
- */ 
+ */
 
 
 
@@ -11,7 +11,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 typedef enum {false, true}bool ;
-	
+
 
 
 int main(void)
@@ -24,8 +24,8 @@ int main(void)
 	int counter = 0;
 	int recounter = 0x7;
 	int i = 0;
-    while (1) 
-    {	
+    while (1)
+    {
 		if(run){
 			
 			if(i==10){
